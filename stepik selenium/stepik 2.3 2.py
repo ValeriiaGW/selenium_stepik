@@ -24,6 +24,7 @@ try:
 
     print(browser.switch_to.alert.text)
 
+
 finally:
     browser.quit()
 
