@@ -14,6 +14,7 @@ try:
     browser.switch_to.window(new_window)  # переключение на новую вкладку
 
     x = browser.find_element(By.ID, value="input_value").text
+
     def calc(x):
         return str(math.log(abs(12*math.sin(int(x)))))
 
